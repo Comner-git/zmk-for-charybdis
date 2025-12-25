@@ -31,7 +31,7 @@
             label = "To2_macro";
             #binding-cells = <0>;
             bindings =
-                <&to 4>,
+                <&to 5>,
                 <&macro_wait_time 30>,
                 <&rgb_ug RGB_COLOR_HSB(250,100,50)>;
         };
@@ -45,7 +45,7 @@
 &kp GRAVE       &kp N1   &kp N2  &kp N3   &kp N4          &kp N5            &kp N6     &kp N7     &kp N8     &kp N9   &kp N0         &kp MINUS
 &kp ESC         &kp Q    &kp W   &kp F    &kp P           &kp G             &kp J      &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSLH
 &kp TAB         &kp A    &kp R   &kp S    &kp T           &kp D             &kp H      &kp N      &kp E      &kp I    &kp O          &kp APOS
-&kp LEFT_SHIFT  &lt 5 Z  &kp X   &kp C    &kp V           &lt 4 B           &kp K      &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &lt 4 Z  &kp X   &kp C    &kp V           &lt 5 B           &kp K      &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
                                  &kp DEL  &kp BACKSPACE   &kp LEFT_SHIFT    &kp ENTER  &kp SPACE
                                           &lt 3 LEFT_GUI  &mo 1             &mo 2
             >;
@@ -84,6 +84,17 @@
             >;
         };
 
+        snipe-layers {
+            bindings = <
+&trans  &trans  &trans  &trans     &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mo 3   &trans     &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
+                        &mkp MB2   &mkp MB1        &mkp MB3    &trans  &trans
+                                   &trans          &trans      &trans
+            >;
+        };
+
         BT_layers {
             bindings = <
 &trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
@@ -92,17 +103,6 @@
 &trans  &trans          &trans        &bt BT_CLR    &trans        &trans          &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
                                       &trans        &trans        &trans          &trans      &trans
                                                     &trans        &trans          &trans
-            >;
-        };
-
-        snipe-layers {
-            bindings = <
-&trans  &trans  &trans  &trans     &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
-                        &mkp MB2   &mkp MB1        &mkp MB3    &trans  &trans
-                                   &trans          &trans      &trans
             >;
         };
     };
