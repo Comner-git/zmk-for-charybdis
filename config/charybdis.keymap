@@ -42,12 +42,12 @@
 
         Alpha {
             bindings = <
-&kp GRAVE       &kp N1   &kp N2  &kp N3   &kp N4          &kp N5            &kp N6     &kp N7     &kp N8     &kp N9   &kp N0         &kp MINUS
-&kp ESC         &kp Q    &kp W   &kp F    &kp P           &kp G             &kp J      &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSLH
-&kp TAB         &kp A    &kp R   &kp S    &kp T           &kp D             &kp H      &kp N      &kp E      &kp I    &kp O          &kp APOS
-&kp LEFT_SHIFT  &lt 4 Z  &kp X   &kp C    &kp V           &lt 5 B           &kp K      &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                                 &kp DEL  &kp BACKSPACE   &kp LEFT_SHIFT    &kp ENTER  &kp SPACE
-                                          &lt 3 LEFT_GUI  &mo 1             &mo 2
+&kp GRAVE  &kp N1   &kp N2  &kp N3   &kp N4         &kp N5            &kp N6     &kp N7     &kp N8     &kp N9   &kp N0         &kp MINUS
+&kp ESC    &kp Q    &kp W   &kp F    &kp P          &kp G             &kp J      &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSLH
+&kp TAB    &kp A    &kp R   &lt 3 S  &kp T          &kp D             &kp H      &kp N      &kp E      &kp I    &kp O          &kp APOS
+&kp LCTRL  &lt 4 Z  &kp X   &kp C    &kp V          &lt 5 B           &kp K      &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                            &kp DEL  &kp BACKSPACE  &kp LEFT_SHIFT    &kp ENTER  &kp SPACE
+                                     &kp LEFT_GUI   &mo 1             &mo 2
             >;
         };
 
