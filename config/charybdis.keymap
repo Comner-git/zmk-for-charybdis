@@ -53,9 +53,9 @@
 
         Num {
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans    &trans            &trans           &trans           &trans           &trans             &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &kp LEFT_BRACKET  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_BRACKET  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp KP_PLUS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS       &kp KP_EQUAL
+&trans  &kp F1        &kp F2        &kp F3     &kp F4          &kp F5    &kp F6            &kp F7           &kp F8           &kp F9           &kp F10            &none
+&trans  &trans        &trans        &trans     &trans          &trans    &kp LEFT_BRACKET  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_BRACKET  &none
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp KP_PLUS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS       &kp EQUAL
 &trans  &trans        &trans        &trans     &trans          &trans    &kp KP_ASTERISK   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_SLASH       &kp KP_DOT
                                     &trans     &trans          &trans    &kp KP_DOT        &kp KP_N0
                                                &trans          &trans    &kp KP_ENTER
@@ -64,10 +64,10 @@
 
         Nav {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7  &kp F8    &kp F9        &kp F10    &kp F11    &kp F12
-&trans  &none   &none   &none   &none   &trans        &none   &none     &kp UP_ARROW  &none      &kp MINUS  &kp EQUAL
-&trans  &none   &none   &none   &none   &trans        &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none      &trans
-&trans  &trans  &trans  &trans  &trans  &none         &none   &none     &trans        &trans     &none      &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7  &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
+&trans  &none   &none   &none   &none   &trans        &none   &none     &kp UP_ARROW  &none      &none    &none
+&trans  &none   &none   &none   &none   &trans        &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none    &trans
+&trans  &trans  &trans  &trans  &trans  &none         &none   &none     &trans        &trans     &none    &trans
                         &trans  &trans  &To0_macro    &none   &none
                                 &trans  &trans        &trans
             >;
